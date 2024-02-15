@@ -28,10 +28,6 @@ img {
   max-width: 100%;
 }
 
-.test {
-  color: red;
-}
-
 .container {
   width: 100%;
   max-width: 1200px;
@@ -412,6 +408,14 @@ img {
 }
 .navbar-primary {
   background-color: red;
+}
+
+.badge-orange {
+  border-radius: 80px;
+  background-color: #ffa600;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: normal;
 }
 
 .p-0 {
