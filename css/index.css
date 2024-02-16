@@ -230,6 +230,10 @@ img {
   background-color: #d9d9d9;
 }
 
+.text-black {
+  color: black;
+}
+
 .text-white {
   color: white;
 }
@@ -391,7 +395,7 @@ img {
   background-color: #c2ff99;
 }
 
-.navbar .container, .navbar-primary .container, .navbar, .navbar-primary {
+.navbar .container, .navbar-white .container, .navbar-primary .container, .navbar, .navbar-white, .navbar-primary {
   width: 100%;
   display: flex;
   align-items: center;
@@ -399,15 +403,19 @@ img {
   box-sizing: border-box;
 }
 
-.navbar, .navbar-primary {
+.navbar, .navbar-white, .navbar-primary {
   padding: 1rem 2rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
-.navbar .site-title, .navbar-primary .site-title {
+.navbar .site-title, .navbar-white .site-title, .navbar-primary .site-title {
   font-size: 1rem 1.5;
 }
 .navbar-primary {
   background-color: red;
+}
+
+.navbar-white {
+  background-color: white;
 }
 
 .badge-orange {
